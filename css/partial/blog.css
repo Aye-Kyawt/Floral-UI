@@ -1,0 +1,147 @@
+.banner6  {
+  background: url("../../img/blog/img17.jpg") no-repeat center/cover;
+  position: relative;
+  height: 400px;
+  border-top: 5px solid #f1d298;
+}
+
+.banner6 h2 {
+  font-size: 35px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  padding: 170px 0px;
+}
+.navbar .blog-navbar {
+  text-align: center;
+}
+.navbar .blog-navbar a {
+  color: var(--brand-color);
+}
+.navbar .blog-navbar .active {
+  color: #fff;
+}
+
+.navbar .blog-navbar a:hover {
+  background-color: var(--brand-color);
+  color: #fff;
+}
+.blog-cate {
+  height: 260vh;
+}
+
+.blog-cate img {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 8px;
+  
+}
+.blog-cate .lft-txt {
+  float: left;
+  width: 50%;
+  
+}
+.blog-cate .shadow  {
+  background-color: #fff;
+  height: 300px;
+  width: 76%;
+  margin-bottom: 30px;
+  
+}
+.blog-cate .shadow:hover {
+  box-shadow: 1px 1px 6px 5px #ddd9d9;
+}
+.shadow .lft-txt .cate {
+  margin-bottom: 10px;
+}
+/* pagination */
+.blog-cate-1 button {
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  border: 2px solid var(--brand-color);
+  text-align: center;
+  background-color: #fff;
+}
+.blog-cate-1 button a {
+  color: var(--brand-color);
+}
+.blog-cate-1 button a:hover {
+  color: #fff;
+}
+.blog-cate-1 button:hover {
+  background-color: var(--brand-color);
+}
+.blog-cate-1 {
+  text-align: center;
+}
+
+/* categories */
+.banner7 {
+  border-top: 5px solid #f1d298;
+  position: relative;
+  height: 133vh;
+}
+.sec-1 img {
+  width: 400px;
+  height: 300px;
+}
+.sec-1 {
+  border-bottom: 2px solid #f1d298;
+}
+.sec-1 .box {
+  font-size: 25px;
+  color: var(--brand-color);
+  font-weight: 700;
+  padding: 40px 0px;
+  
+}
+.sec-1 .date {
+  font-size: 14px;
+  color: var(--brand-color);
+  font-weight: 300px;
+  padding: 20px 0px;
+}
+.sec-1 .cate {
+  background-color: var(--brand-color);
+  color: #fff;
+  width: 90px;
+  padding: 10px;
+  border-top-left-radius: 10px;
+}
+.sec-1 .para1 {
+  padding: 10px 0px 20px 0px;
+}
+.sec-1 .para2 {
+  padding: 0px 0px 20px 0px;
+}
+.sec-1 .para3 {
+  font-family: var(--secondary-font-family);
+  padding: 0px 0px 20px 0px;
+  line-height: 30.2px;
+  font-size: 20px;
+}
+.sec-1 .para4 {
+  padding: 0px 0px 10px 0px;
+}
+.sec-1 .icon {
+  margin-left: 90%;
+}
+.sec-1 i {
+  margin-right: 10px;
+}
+.ft-bt {
+  float: left;
+  
+}
+.sec-bt a {
+  color: var(--brand-color);
+}
+.sec-bt {
+  float: right;
+}
+
+

@@ -1,0 +1,101 @@
+.banner4 button {
+  background-color: var(--brand-color);
+  padding: 10px;
+  width: 160px;
+  border-radius: 10px;
+  margin: 30px 0px 0px 0px;
+  border: 0px solid var(--bg-color);
+  color: #fff;
+}
+
+.banner4 span {
+  color: #ea2a2a;
+}
+
+.banner4 h2 {
+  font-size: 35px;
+  color: var(--brand-color);
+  text-align: center;
+  padding: 60px 0px 40px 0px;
+}
+
+.banner4 {
+  border-top: 5px solid #f1d298;
+  position: relative;
+  height: 120vh;
+}
+
+.banner4 form {
+  position: absolute;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.banner4 label {
+  padding: 0px 40px 40px 0px;
+}
+
+form input {
+  padding: 10px 120px 10px 10px;
+  background-color: #fff;
+  border: 1px solid #bebcbc;
+  border-radius: 5px;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+form select {
+  padding: 10px 210px 10px 10px;
+  background-color: #fff;
+  border: 1px solid #bebcbc;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+form textarea {
+  margin-top: 10px;
+}
+
+/* Thank */
+.banner5 {
+  border-top: 5px solid #f1d298;
+  position: relative;
+  height: 60vh;
+}
+
+.banner5 img {
+  color: var(--brand-color);
+  width: 70px;
+  height: 70px;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.banner5 h2 {
+  font-size: 35px;
+  color: var(--brand-color);
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.banner5 p {
+  text-align: center;
+  font-size: 14px;
+  padding: 0px 200px;
+}
+
+.banner5 button {
+  background-color: var(--brand-color);
+  padding: 10px;
+  width: 160px;
+  border-radius: 10px;
+  margin: 30px 0px 0px 0px;
+  border: 0px solid var(--bg-color);
+  color: #fff;
+  position: absolute;
+  left: 44%;
+}

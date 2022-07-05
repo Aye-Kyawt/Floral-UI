@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Wordpress-Design </title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="main">
+  <section class="topg container">
+    <header>
+      <h1 class="logo">
+        <a href="index.html">
+          <p>JaDoo</p>
+        </a>
+      </h1>
+    </header>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="new.html">News</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+  </section>
+  <!-- /.top/.container/.navbar/.logo -->
+  <section class="banner4 mt-60">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+
+        <div>
+          <label for="username">Name<span>*</span></label>
+          <input type="text" id="username" placeholder="Name" name="username" required>
+        </div>
+
+        <div>
+          <label for="gender">Gender</label>
+          <input type="radio" id="male" name="gender" checked="checked">
+          <label for="male">Male</label>
+
+          <input type="radio" id="female" name="gender">
+          <label for="female">Female</label>
+          <br><br>
+        </div>
+
+        <div>
+          <label for="email">Mail<span>*</span></label>
+          <input type="email" id="email" placeholder="Email" name="email" required>
+        </div>
+
+        <div>
+          <label for="city">City<span>*</span></label>
+          <select>
+            <option>Yangon</option>
+            <option>Mandalay</option>
+            <option>Bago</option>
+          </select>
+        </div>
+        <br><br>
+
+
+
+        <div>
+          <br>
+          <textarea id="message" placeholder="Message" cols="50" rows="10"></textarea>
+        </div>
+
+        <button><a href="thank.html">Send Message -></a></button>
+      </form>
+
+    </div>
+  </section>
+  <!-- /.banner4 -->
+
+  <footer class="container mt-60">
+
+
+    <div class="foot-one clearfix">
+      <div class="ft-logo">
+        <a href="index.html">
+          <p>JaDoo</p>
+        </a>
+      </div>
+      <p class="ft-txt">Lorem ipsum, dolor sit amet conse adipisicing elit. Quae nam.</p>
+    </div>
+
+    <div class="foot-two clearfix">
+      <p class="livin">We are digital designer living in United State.
+        Apart from eating burger</p>
+
+      <div class="ft-contact">
+        <ul class="clearfix">
+          <li>
+            <p>SENT MAIL</p>
+            <email to><a href="mailto:yourname@domain.com" class="mail">
+                info@portfolio.com
+              </a></email>
+          </li>
+
+          <li>
+            <p>MAKE CALL</p>
+            <tel><a href="tel:(+95)1234567890" class="tel">
+                +123 456 7890
+              </a></tel>
+          </li>
+
+          <li>
+            <p>GET IN TOUCH</p>
+            <span>123/A, Hamburger</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="last">
+      <span>2022 All Rights Reserved</span>
+
+    </div>
+  </footer>
+  <!-- /.foot-one/.foot-two/.ft-logo/.ft-txt/.last/.ft-contact/.livin -->
+
+
+
+  <a href="#main" class="top">&uarr;</a>
+
+  <script>
+    window.addEventListener('scroll', function () {
+      let topBtn = document.querySelector('.top');
+
+      topBtn.classList.toggle('show', scrollY > 200);
+
+    })
+  </script>

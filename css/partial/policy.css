@@ -1,0 +1,34 @@
+.banner3 {
+  background: url("../../img/policy/policy.jpg") no-repeat center/cover;
+  width: 100%;
+  height: 300px;
+  border-top: 5px solid #f1d298;
+  position: relative;
+}
+.banner3 h2 {
+  color: var(--brand-color);
+  font-size: 35px;
+  text-align: center;
+  padding: 150px 0px;
+  font-weight: 700;
+}
+.cnt1 h3,
+.cnt2 h3 {
+  color: var(--brand-color);
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+.cnt1 p {
+  font-size: 14px;
+  line-height: 28.2px;
+}
+.cnt2 .first li {
+  list-style-type: disc;
+}
+.cnt2 .second li {
+  list-style-type: circle;
+  margin-left: 30px;
+}
+.cnt2 li {
+ padding-bottom: 10px;
+}

@@ -1,0 +1,290 @@
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.banner {
+  background: url("../../img/top-page/image11.jpg") no-repeat center/cover;
+  width: 100%;
+  height: 800px;
+  border-top: 5px solid #f1d298;
+  position: relative;
+}
+
+.txt1 {
+  margin-top: 250px;
+}
+
+.banner h1 {
+  font-size: 45px;
+  font-family: var(--secondary-font-family);
+  width: 800px;
+
+  padding: 0px 0px 60px 80px;
+  color: var(--bg-color);
+}
+
+.banner h1 span {
+  color: var(--brand-color);
+}
+
+.banner p {
+  font-size: 14px;
+  color: #b1acac;
+  width: 500px;
+  line-height: var(--line-height);
+  padding: 0px 0px 0px 80px;
+}
+
+.banner button,
+.title button {
+  background-color: var(--brand-color);
+  padding: 10px;
+  width: 160px;
+  border-radius: 10px;
+  margin: 30px 0px 0px 80px;
+  border: 0px solid var(--bg-color);
+}
+
+button a {
+  color: var(--bg-color);
+}
+
+/* hot news */
+.hot-nf {
+  background-color: #f1d298;
+  width: 70%;
+  height: 70px;
+  border-radius: 10px;
+  position: absolute;
+  top: 135%;
+  left: 15%;
+}
+
+.hot-nf h2 {
+  float: left;
+
+  padding: 20px;
+  font-size: 25px;
+}
+
+.hot-nf a {
+  float: right;
+
+  padding: 20px;
+  font-size: 20px;
+}
+
+/* about overview */
+
+.title h2 {
+  margin: 100px 0px 30px 0px;
+  text-align: center;
+}
+
+.title p {
+  font-size: 14px;
+  color: #b1acac;
+  width: 700px;
+  line-height: var(--line-height);
+  margin-left: 17%;
+  text-align: center;
+}
+
+.title button {
+  margin-left: 42%;
+  margin-bottom: 40px;
+}
+
+/* service overview */
+.service-overview {
+  background-color: #ffe4c4;
+  height: 900px;
+}
+
+.ttl-1 h2 {
+  padding: 40px 0px 0px 0px;
+  text-align: center;
+
+  width: 100%;
+  margin: 0px 0px 40px 0px;
+}
+
+.flex-item1 {
+  display: flex;
+
+  flex-wrap: nowrap;
+}
+
+.flex-item1 span h6,
+.flex-item1 span p {
+  text-align: left;
+  padding: 40px 0px 0px 0px;
+
+  width: 500px;
+  margin-left: 70px;
+}
+.flex-item1 h6 {
+  font-size: 25px;
+}
+
+.flex-item1 img {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  border: 2px solid var(--brand-color);
+  border-radius: 10px;
+}
+
+.flex-item1 span p,
+.flex-item2 span p {
+  color: #333;
+}
+
+.flex-item1 span button {
+  margin-left: 0px;
+}
+
+.flex-item2 {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.flex-item2 span h6,
+.flex-item2 span p {
+  text-align: right;
+  margin-right: 50px;
+  width: 500px;
+  padding: 40px 0px 0px 0px;
+}
+.flex-item2 h6 {
+  font-size: 25px;
+}
+
+.flex-item2 span p {
+  text-align: right;
+  margin-left: 0;
+}
+
+.flex-item2 span button {
+  margin-right: 0px;
+}
+
+.flex-item2 img {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  border: 2px solid var(--brand-color);
+  border-radius: 10px;
+}
+/* blog overview */
+.subphoto ul {
+  float: left;
+  margin-top: 20px;
+ 
+}
+.subphoto ul li {
+  float: left;
+  
+  width: 330px;
+  margin-right: 25px;
+  position: relative;
+  
+  
+}
+
+.subphoto ul li img {
+  width: 100%;
+  height: 300px;  
+  border-radius: 8px;
+
+}
+
+.subphoto ul li li:last-child {
+  margin-right: 0px;
+}
+
+
+.subphoto ul li p {
+  width: 330px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  
+}
+.subphoto ul li span {
+  
+  width: 330px;
+ 
+  position: absolute;
+  top: 59%;
+  left: 0;
+  background: var(--bg-color);
+  border-radius: 6px;
+  padding: 0px 10px;
+}
+
+.subphoto ul li span::after {
+  content: "-  -";
+  color: var(--brand-color);
+}
+.shadow .lft-txt .enjoy::after {
+  content: "_  _";
+  color: var(--brand-color);
+}
+.subphoto ul li span .littl a,
+.subphoto ul li a,
+.shadow .littl a {
+  font-size: 14px;
+  color: var(--brand-color);
+  font-weight: 300;
+  
+}
+.subphoto ul li .cate a,
+.shadow .cate a {
+  background-color: var(--brand-color);
+  color: #fff;
+  width: 80px;
+  padding: 10px;
+  border-top-left-radius: 10px;
+
+}
+.subphoto ul li span .littl,
+.shadow .littl1 {
+  padding-top: 20px;
+}
+.subphoto .box,
+.shadow .box {
+  color: var(--brand-color);
+  line-height: var(--line-height);
+  padding: 20px 0px 30px 0px ;
+  text-align: left;
+}
+.subphoto ul li span:hover {
+  box-shadow: 1px 1px 6px 5px #ddd9d9;
+}
+
+
+.blog-overview {
+  position: relative;
+  height: 700px;
+}
+.blog-overview button {
+  position: absolute;
+  background-color: var(--brand-color);
+  width: 160px;
+  border-radius: 10px;
+  border: 0px solid var(--bg-color);
+  padding: 10px 20px;
+  top: 620px;
+  left: 41%;
+}
+
+

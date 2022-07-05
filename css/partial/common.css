@@ -1,0 +1,118 @@
+
+.topg {
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+  /*border-bottom: 5px solid #f1d298;*/
+  /*padding-bottom: 20px;*/
+
+}
+
+.logo a {
+ flex-basis: 200px;
+ font-size: 60px;
+ color: var(--brand-color);
+ display: block;
+ 
+}
+header, .navbar {
+  padding: 30px 0px 0px 0px;
+}
+.navbar {
+  background: #fff;
+  flex-basis: 600px;
+}
+
+.title {
+  font-family: var(--primary-font-family);
+  font-size: 35px;
+  font-weight: 700;
+  color: #333;
+  margin: 40px 0px;
+}
+
+.mt-60 {
+  margin-top: 40px;
+  /*margin-bottom: 60px;*/
+}
+
+.top {
+	display: block;
+	width: 50px;
+	height: 50px;
+	line-height: 40px;
+	text-align: center;
+	border: 2px solid #000;
+	border-radius: 50%;
+	color: #000;
+	transition: all 0.5s ease;
+	position: fixed;
+	right: 40px;
+	bottom: 180px;
+}
+.top:hover {
+	background-color: var(--brand-color);
+	color: #fff;
+	border-color: var(--brand-color);
+}
+
+.show {
+	display: block;
+}
+
+/* footer */
+footer {
+  height: 200px;
+  position: relative;
+}
+footer .ft-logo a {
+  font-size: 40px;
+  
+  color: var(--brand-color);
+  font-weight: 700;
+}
+.foot-one .ft-txt {
+  padding-top: 20px;
+}
+.ft-txt {
+  width: 260px;
+}
+.foot-one {
+  float: left;
+}
+.foot-two {
+  float: right;
+}
+.ft-contact ul {
+  float: left;
+}
+.ft-contact ul li {
+  float: left;
+  width: 150px;
+}
+.ft-contact ul li p {
+  color: var(--brand-color);
+  font-size: 18px;
+}
+.foot-two .livin {
+  width: 300px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.ft-contact a {
+  color: #333;
+}
+ .last  {
+  border-top: 5px solid #f1d298;
+  width: 100%;
+  position: absolute;
+  top: 90%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+  
+  
+
+

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import "partial/variable.css";
+@import "partial/header.css";
+@import "partial/global.css";
+@import "partial/slider.css";
+@import "partial/common.css";
+@import "partial/about.css";
+@import "partial/policy.css";
+@import "partial/contact.css";
+@import "partial/blog.css";
+@import "partial/news.css";

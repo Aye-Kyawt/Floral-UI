@@ -1,0 +1,13 @@
+.banner8 {
+  background: url('../../img/news/new.jpg');
+  height: 400px;
+  border-top: 5px solid #f1d298;
+  position: relative;
+}
+.banner8 h2 {
+  text-align: center;
+  color: var(--bg-color);
+  padding: 175px 0px;
+  font-size: 35px;
+  font-weight: 700;
+}
